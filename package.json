@@ -1,0 +1,25 @@
+{
+  "name": "emoji-test-groups",
+  "version": "11.0.0",
+  "description": "Get emoji groups from Unicode test data file",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tonton-pixel/emoji-test-groups.git"
+  },
+  "bugs": {
+    "url": "https://github.com/tonton-pixel/emoji-test-groups/issues"
+  },
+  "homepage": "https://github.com/tonton-pixel/emoji-test-groups",
+  "keywords": [
+    "emoji",
+    "test",
+    "groups",
+    "subgroups"
+  ],
+  "author": "Michel MARIANI",
+  "license": "MIT"
+}
