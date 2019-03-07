@@ -1,7 +1,7 @@
 {
   "name": "emoji-test-groups",
-  "version": "11.0.0",
-  "description": "Get emoji groups from Unicode test data file",
+  "version": "12.0.0",
+  "description": "Get emoji groups and subgroups from Unicode 12.0 test data file",
   "main": "index.js",
   "scripts": {
     "test": "node test.js"
@@ -18,7 +18,9 @@
     "emoji",
     "test",
     "groups",
-    "subgroups"
+    "subgroups",
+    "component",
+    "fully-qualified"
   ],
   "author": "Michel MARIANI",
   "license": "MIT"

@@ -4,7 +4,7 @@ const path = require ('path');
 //
 // https://www.unicode.org/reports/tr51/
 //
-// Copy of https://unicode.org/Public/emoji/11.0/emoji-test.txt
+// Copy of https://unicode.org/Public/emoji/12.0/emoji-test.txt
 //
 function getEmojiGroups ()
 {
@@ -39,7 +39,7 @@ function getEmojiGroups ()
                 {
                     subgroups.push ({ name: subgroupName, characters: characters });
                 }
-                subgroupName = matchFound[1].replace (/\b\w/g, (m) => m.toUpperCase ()).replace ("-", " | ").replace (/\bav\b/i, "AV");
+                subgroupName = matchFound[1].replace (/\b\w/g, (m) => m.toUpperCase ()).replace ("-", " | ").replace ("-", " ").replace (/\bav\b/i, "AV");
                 characters = [ ];
             }
             else if (matchFound = line.match (/^#EOF$/))
@@ -64,7 +64,7 @@ function getEmojiGroups ()
                 let fields = data.split (';');
                 let codePoints = fields[0].trim ().split (' ');
                 let status = fields[1].trim ();
-                if (status === "fully-qualified")
+                if ((status === "component") || (status === "fully-qualified"))
                 {
                     let emojiString = "";
                     for (let codePoint of codePoints)
