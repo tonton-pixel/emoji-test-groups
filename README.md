@@ -2,7 +2,7 @@
 
 ## Description
 
-This Node module returns a JSON-compatible array literal containing a hierarchy of all groups and subgroups of either component or fully-qualified (keyboard) emoji characters, as extracted from the Unicode 12.0 data file `emoji-test.txt`, but using more user-friendly names.
+This Node module returns a JSON-compatible array literal containing a hierarchy of all groups and subgroups of either component or fully-qualified (keyboard) emoji characters, as extracted from the Emoji 12.1 data file `emoji-test.txt`, but using more user-friendly names.
 
 ## Installing
 
