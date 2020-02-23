@@ -94,6 +94,9 @@ const subgroupNames =
     "zodiac": "Zodiac",
     "av-symbol": "AV Symbol",
     "gender": "Gender",
+    "math": "Math",
+    "punctuation": "Punctuation",
+    "currency": "Currency",
     "other-symbol": "Other Symbol",
     "keycap": "Keycap",
     "alphanum": "Alphanum",
@@ -105,7 +108,7 @@ const subgroupNames =
 //
 // https://www.unicode.org/reports/tr51/
 //
-// Copy of https://unicode.org/Public/emoji/12.1/emoji-test.txt
+// Copy of https://unicode.org/Public/emoji/13.0/emoji-test.txt
 //
 function getEmojiGroups ()
 {
